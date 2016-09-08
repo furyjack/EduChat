@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">EduChat</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="hint_name">Username</string>
+    <string name="username_is_incorrect">Username is Incorrect</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="title_activity_main">Leads Dashboard</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="empty_username">Username is Empty</string>
+    <string name="empty_password">Password is Empty</string>
+    <string name="incorrect_username">Username is Incorrect</string>
+    <string name="incorrect_password">Password is Incorrect</string>
+    <string name="title_activity_forget_password">ForgetPasswordActivity</string>
+    <string name="search_title">search</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="sarthak_batra">Sarthak Batra</string>
+    <string name="email">me@edunuts.com</string>
+    <string name="credits">Available Credits: 300</string>
+    <string name="dashboard">Dashboard</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="leads">Leads</string>
+    <string name="messages">Messages</string>
+    <string name="settings">Settings</string>
+    <string name="promos">Promos</string>
+    <string name="credits80">80 credits</string>
+    <string name="need">Need: BBA College</string>
+    <string name="today">Today (Competition 0/7)</string>
+    <string name="respond">Respond</string>
+
+    <string-array name="nameArray">
+        <item>Sandeep Singh</item>
+        <item>Karan Makhan</item>
+        <item>Mohd Adil</item>
+        <item>Sandeep Singh</item>
+        <item>Karan Makhan</item>
+        <item>Mohd Adil</item>
+        <item>Sandeep Singh</item>
+        <item>Karan Makhan</item>
+        <item>Mohd Adil</item>
+    </string-array>
+    <string-array name="needArray">
+        <item>Need: BBA College</item>
+        <item>Need: BBA College</item>
+        <item>Need: BBA College</item>
+        <item>Need: BBA College</item>
+        <item>Need: BBA College</item>
+        <item>Need: BBA College</item>
+        <item>Need: BBA College</item>
+        <item>Need: BBA College</item>
+        <item>Need: BBA College</item>
+    </string-array>
+    <string-array name="creditArray">
+        <item>80 Credits</item>
+        <item>80 Credits</item>
+        <item>80 Credits</item>
+        <item>80 Credits</item>
+        <item>80 Credits</item>
+        <item>80 Credits</item>
+        <item>80 Credits</item>
+        <item>80 Credits</item>
+        <item>80 Credits</item>
+    </string-array>
+    <string-array name="timeArray">
+        <item>Today (Competition 0/7)</item>
+        <item>Today (Competition 0/7)</item>
+        <item>Today (Competition 0/7)</item>
+        <item>Today (Competition 0/7)</item>
+        <item>Today (Competition 0/7)</item>
+        <item>Today (Competition 0/7)</item>
+        <item>Today (Competition 0/7)</item>
+        <item>Today (Competition 0/7)</item>
+        <item>Today (Competition 0/7)</item>
+    </string-array>
+    <string-array name="statusArray">
+        <item>Respond</item>
+        <item>Not Available</item>
+        <item>Respond</item>
+        <item>Not Available</item>
+        <item>Respond</item>
+        <item>Not Available</item>
+        <item>Respond</item>
+        <item>Not Available</item>
+        <item>Respond</item>
+    </string-array>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="sign_up">SignUp!</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_hint">Email</string>
+    <string name="mobile_number">10 Digit Mobile Number</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="inst_name">Institution Name</string>
+    <string name="tnc"><![CDATA[I agree with Terms & Conditions]]></string>
+    <string name="sign_ups">Sign Up</string>
+    <string name="have_an_ac">Have an Account?</string>
+    <string name="forget_passwords">Forget Password</string>
+    <string name="no_internet">No Interent Connect, \nTap to try again</string>
+    <string name="title_activity_otp">Verify OTP</string>
+    <string name="otp_text">You must have received a 6 digit code on your mobile number.</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verify">Verify</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="thank_you_msg">Thank you, We have received your application.\n Our team will process it soon.</string>
+    <string name="agree">I agree with </string>
+    <string name="term"><![CDATA[Term & Conditions]]></string>
+    <string name="dont_have">Don\'t have account?</string>
+    <string name="needs">Need</string>
+    <string name="looking">Looking for Admission in BBA College</string>
+    <string name="preffered_location">Preferred Location</string>
+    <string name="delhi">Delhi/NCR, Mumbai, Pune</string>
+    <string name="fee_budget">Fee Budget</string>
+    <string name="budget">50,000 to 1 Lac</string>
+    <string name="comments">Comments</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</string>
+    <string name="write_response">Write Response</string>
+    <string name="skip">Skip</string>
+    <string name="responds">Respond (80 Credits)</string>
+    <string name="lead_details">Lead Details</string>
+    <string name="counter">0/120</string>
+    <string name="forget_pass_text">We need your email address or mobile number registered with us to reset your password</string>
+    <string name="enter_your_email">Enter Email or Password</string>
+    <string name="reset">Reset</string>
+    <string name="forget_pass_text_again">Great. We have sent you verification code on your email. Please do check spam/junk folder incase you didn\'t find in your inbox.</string>
+    <string name="credit">Credits</string>
+    <string name="available_credit">Available Credits</string>
+    <string name="available_200">200</string>
+    <string name="buy_credits">Buy Credits</string>
+    <string name="below">Below 1000 at a time</string>
+    <string name="add_credits">Add Credits</string>
+    <string name="date">Date</string>
+    <string name="description">Description</string>
+    <string name="amount">Amount</string>
+    <string name="dummy_date">10/9/2016</string>
+    <string name="dummmy_description">200 Credits Added</string>
+    <string name="dummy_amount">2000/-</string>
+    <string name="tight_scedule">Tight schedule, I am not available.</string>
+    <string name="not_enough_info">Not enough information.</string>
+    <string name="i_dont_serve_this_company">I don\'t serve this company.</string>
+    <string name="dont_want_to_spend_credit">Don\'t want to spend credits.</string>
+    <string name="others">Other</string>
+    <string name="would_love_to">Would love to hear Feedback</string>
+    <string name="sit_back">Sit back and relax! while we verify your number.</string>
+    <string name="logout">Logout</string>
+    <string name="logout_msg">Do you want to Logout?</string>
+    <string name="submit">Submit</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="title_activity_change_password">ChangePasswordActivity</string>
+    <string name="conf_pass">Confirm Password</string>
+    <string name="search">Search</string>
+    <string name="converted">Converted</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="responded_text">You have spent 7 credits worth ₹ 7 on this lead! \nCustomer waiting for you please contact</string>
+    <string name="ok">Ok</string>
+    <string name="respond_sucessfully">Respond Sucessfully</string>
+    <string name="no_result_found">No Result Found</string>
+    <string name="Congratualtion">Congratulations!!</string>
+    <string name="notification">Notifications</string>
+
+
+</resources>
