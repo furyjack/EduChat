@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "298103840556",
+    "firebase_url": "https://educhat-8ec73.firebaseio.com",
+    "project_id": "educhat-8ec73",
+    "storage_bucket": "educhat-8ec73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298103840556:android:e8ef2a0e9294964b",
+        "android_client_info": {
+          "package_name": "com.example.admin.educhat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298103840556-1a7vnp0es2k2an1r62s2i3p820ri4jh6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.educhat",
+            "certificate_hash": "9B3C5E006919046DC967CF8CA3D2C04DAE883BA5"
+          }
+        },
+        {
+          "client_id": "298103840556-aih3dv4m14iipic2etjttuj6a8j7uo2i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIscniF98VtP7xokA3eWu0oWSMaM3MiIw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298103840556-aih3dv4m14iipic2etjttuj6a8j7uo2i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

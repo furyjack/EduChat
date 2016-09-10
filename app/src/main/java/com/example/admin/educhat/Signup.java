@@ -200,6 +200,8 @@ public class Signup extends BaseActivity {
                 Intent intent = new Intent(getApplicationContext(), OtpActivity.class);
                 intent.putExtra("Mobile Number", mobileNumber);
                 intent.putExtra("TYPE", Constants.SIGN_UP_ACTIVITY);
+                intent.putExtra("EMAIL",email);
+                intent.putExtra("pass",password);
                 startActivity(intent);
             }
             if (message.arg1== HttpURLConnection.HTTP_INTERNAL_ERROR){
