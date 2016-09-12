@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.admin.educhat.utils.Partner;
 import com.firebase.client.Firebase;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.auth.FirebaseAuth;
@@ -48,13 +49,24 @@ public class MainActivity extends AppCompatActivity {
             finish();
         }
         userchatref= FirebaseDatabase.getInstance().getReference().child("Users").child(user.getUid()).child("Threads");
-        Rvthreads= (RecyclerView) findViewById(R.id.rv_threads);
+
+       Rvthreads= (RecyclerView) findViewById(R.id.rv_threads);
         Rvthreads.setHasFixedSize(true);
         Rvthreads.setLayoutManager(new LinearLayoutManager(this));
-        FirebaseRecyclerAdapter<String,Partnerviewholder> adapter=new FirebaseRecyclerAdapter<String, Partnerviewholder>(String.class,R.layout.partneritemlayout,Partnerviewholder.class,userchatref) {
+        FirebaseRecyclerAdapter<Partner,Partnerviewholder> adapter=new FirebaseRecyclerAdapter<Partner, Partnerviewholder>(Partner.class,R.layout.partneritemlayout,Partnerviewholder.class,userchatref) {
             @Override
-            protected void populateViewHolder(Partnerviewholder viewHolder, String model, int position) {
-                viewHolder.tvName.setText(model);
+            protected void populateViewHolder(Partnerviewholder viewHolder, final Partner model, int position) {
+                viewHolder.tvName.setText(model.name);
+                viewHolder.tvName.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent=new Intent(getApplicationContext(),chatActivity.class);
+                        intent.putExtra("puid",model.uid);
+                        intent.putExtra("pname",model.name);
+                        startActivity(intent);
+
+                    }
+                });
 
             }
         };
