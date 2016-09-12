@@ -25,18 +25,55 @@
     </layouts>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af444dc1-f07d-4b01-b453-cfbab586bdf4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/bolts_android_1_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/bolts_applinks_1_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/bolts_tasks_1_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cardview_v7_23_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/customtabs_23_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/facebook_android_sdk_4_14_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_ui_0_5_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_ui_auth_0_5_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_ui_database_0_5_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_auth_9_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_auth_base_9_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/partneritemlayout.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_android_24.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_24_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_24_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_24_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_24_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/design_24_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_24_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_9_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_9_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_impl_9_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_impl_9_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_auth_9_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_auth_9_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_common_9_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_common_9_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_database_9_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_database_9_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_database_connection_9_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_database_connection_9_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_iid_9_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_iid_9_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_base_9_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_base_9_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_basement_9_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_basement_9_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_tasks_9_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_tasks_9_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_24_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_24_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_24_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_24_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_24_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_compat_24_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_24_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_fragment_24_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_24_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_media_compat_24_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_24_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_24_2_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/Login.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/Login.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/OtpActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/OtpActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/Signup.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/Signup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
     </list>
     <ignored path="EduChat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -134,36 +171,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WebRequest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/utils/WebRequest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -172,7 +187,68 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+              <folding>
+                <element signature="e#1865#1892#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simple_list_item_1.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/platforms/android-24/data/res/layout/simple_list_item_1.xml">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.666667">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="partneritemlayout.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/partneritemlayout.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.16513762">
+              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.3448277">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OtpActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/OtpActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -181,19 +257,11 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/BaseActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-7.4444447">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+              <folding>
+                <element signature="e#415#433#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -202,30 +270,20 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/Signup.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="203" column="49" selection-start-line="203" selection-start-column="49" selection-end-line="203" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OtpActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/OtpActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6345609">
-              <caret line="178" column="47" selection-start-line="178" selection-start-column="47" selection-end-line="178" selection-end-column="47" />
-              <folding>
-                <element signature="e#5537#6868#0" expanded="true" />
-                <element signature="e#5784#6583#0" expanded="true" />
-                <element signature="e#6582#6583#0" expanded="true" />
-                <element signature="e#6867#6868#0" expanded="true" />
-              </folding>
+              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile_vertical" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -731,6 +789,16 @@
                 <option name="name" value="prepareComAndroidSupportAppcompatV72420Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:cardview-v7:23.4.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportCardviewV72340Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:customtabs:23.4.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportCustomtabs2340Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:design:24.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComAndroidSupportDesign2420Library" />
@@ -774,6 +842,36 @@
                 <option name="description" value="Prepare com.android.support:support-vector-drawable:24.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2420Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.android:facebook-android-sdk:4.14.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComFacebookAndroidFacebookAndroidSdk4141Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.firebaseui:firebase-ui:0.5.3" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComFirebaseuiFirebaseUi053Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.firebaseui:firebase-ui-auth:0.5.3" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComFirebaseuiFirebaseUiAuth053Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.firebaseui:firebase-ui-database:0.5.3" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComFirebaseuiFirebaseUiDatabase053Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.google.android.gms:play-services-auth:9.4.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesAuth940Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.google.android.gms:play-services-auth-base:9.4.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesAuthBase940Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.google.android.gms:play-services-base:9.4.0" />
@@ -1462,6 +1560,16 @@
                 <option name="name" value="prepareComAndroidSupportAppcompatV72420Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:cardview-v7:23.4.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportCardviewV72340Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:customtabs:23.4.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportCustomtabs2340Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:design:24.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="prepareComAndroidSupportDesign2420Library" />
@@ -1505,6 +1613,36 @@
                 <option name="description" value="Prepare com.android.support:support-vector-drawable:24.2.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2420Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.android:facebook-android-sdk:4.14.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComFacebookAndroidFacebookAndroidSdk4141Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.firebaseui:firebase-ui:0.5.3" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComFirebaseuiFirebaseUi053Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.firebaseui:firebase-ui-auth:0.5.3" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComFirebaseuiFirebaseUiAuth053Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.firebaseui:firebase-ui-database:0.5.3" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComFirebaseuiFirebaseUiDatabase053Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.google.android.gms:play-services-auth:9.4.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesAuth940Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.google.android.gms:play-services-auth-base:9.4.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesAuthBase940Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.google.android.gms:play-services-base:9.4.0" />
@@ -1762,7 +1900,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4420353430034" />
+        <entry key="$PROJECT_DIR$" value="4420970053247" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1777,86 +1915,84 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.1.0/gradle-2.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.1.3/gradle-2.1.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.0.0/32b833222c886ecfb37d79b1a05ce1eddb702db1/google-services-3.0.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.0.0/ee538ce9cf4148485e43017c5542202b8c78ff8e/google-services-3.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.1.0/gradle-core-2.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.1.0/gradle-api-2.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.1.0/lint-25.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.1.0/compilerCommon-2.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.1.3/gradle-core-2.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.1.3/builder-2.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.1.3/lint-25.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.1.3/gradle-api-2.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.1.3/compilerCommon-2.1.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.1.0/builder-2.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.6.201602180812/org.jacoco.core-0.7.6.201602180812.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.1.3/builder-model-2.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.1.3/builder-test-api-2.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.1.3/sdklib-25.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.1.3/sdk-common-25.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.1.3/common-25.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.1.3/manifest-merger-25.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.1.3/ddmlib-25.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.10.0/jack-api-0.10.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.10.0/jill-api-0.10.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.1.0/annotations-25.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.1.0/lint-checks-25.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.1.3/lint-checks-25.1.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.1.3/annotations-25.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.1.3/baseLibrary-2.1.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4/4.5/antlr4-4.5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.1.0/baseLibrary-2.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.1.0/builder-model-2.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.1.0/common-25.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.1.0/ddmlib-25.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.1.0/sdklib-25.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.1.0/builder-test-api-2.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.1.0/sdk-common-25.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.1.0/manifest-merger-25.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.10.0/jack-api-0.10.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.10.0/jill-api-0.10.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.1.0/lint-api-25.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-runtime/4.5/antlr4-runtime-4.5.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-annotations/4.5/antlr4-annotations-4.5.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/ST4/4.0.8/ST4-4.0.8.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.1.0/repository-25.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.1.3/layoutlib-api-25.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.1.3/dvlib-25.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.1.3/repository-25.1.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.1.0/dvlib-25.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.1.0/layoutlib-api-25.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.1.3/lint-api-25.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-runtime/4.5/antlr4-runtime-4.5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-annotations/4.5/antlr4-annotations-4.5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/ST4/4.0.8/ST4-4.0.8.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$" />
@@ -1868,117 +2004,126 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.1.0/gradle-2.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.1.3/gradle-2.1.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.0.0/32b833222c886ecfb37d79b1a05ce1eddb702db1/google-services-3.0.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.gms/google-services/3.0.0/ee538ce9cf4148485e43017c5542202b8c78ff8e/google-services-3.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.1.0/gradle-core-2.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.1.0/gradle-api-2.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.1.0/lint-25.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.1.0/compilerCommon-2.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.1.3/gradle-core-2.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.1.3/builder-2.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.1.3/lint-25.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.1.3/gradle-api-2.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.1.3/compilerCommon-2.1.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.1.0/builder-2.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.6.201602180812/org.jacoco.core-0.7.6.201602180812.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.1.3/builder-model-2.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.1.3/builder-test-api-2.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.1.3/sdklib-25.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.1.3/sdk-common-25.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.1.3/common-25.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.1.3/manifest-merger-25.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.1.3/ddmlib-25.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.10.0/jack-api-0.10.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.10.0/jill-api-0.10.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.1.0/annotations-25.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.1.0/lint-checks-25.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.1.3/lint-checks-25.1.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.1.3/annotations-25.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.1.3/baseLibrary-2.1.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4/4.5/antlr4-4.5.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.1.0/baseLibrary-2.1.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.1.0/builder-model-2.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.1.0/common-25.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.1.0/ddmlib-25.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.1.0/sdklib-25.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.1.0/builder-test-api-2.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.1.0/sdk-common-25.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.1.0/manifest-merger-25.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.10.0/jack-api-0.10.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.10.0/jill-api-0.10.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.1.0/lint-api-25.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-runtime/4.5/antlr4-runtime-4.5.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-annotations/4.5/antlr4-annotations-4.5.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/ST4/4.0.8/ST4-4.0.8.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.1.0/repository-25.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.1.3/layoutlib-api-25.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.1.3/dvlib-25.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.1.3/repository-25.1.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.1.0/dvlib-25.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.1.0/layoutlib-api-25.1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.1.3/lint-api-25.1.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-runtime/4.5/antlr4-runtime-4.5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-annotations/4.5/antlr4-annotations-4.5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/ST4/4.0.8/ST4-4.0.8.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/24.2.0/appcompat-v7-24.2.0.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/24.2.0/support-v4-24.2.0.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/design/24.2.0/design-24.2.0.aar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/android/m2repository/com/android/support/appcompat-v7/24.2.0/appcompat-v7-24.2.0.aar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/android/m2repository/com/android/support/support-v4/24.2.0/support-v4-24.2.0.aar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/android/m2repository/com/android/support/design/24.2.0/design-24.2.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-android/2.3.1/be29b24233711c419ce935aa0a1b12ebc49d1c9a/firebase-client-android-2.3.1.jar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/google/m2repository/com/google/firebase/firebase-auth/9.4.0/firebase-auth-9.4.0.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/google/m2repository/com/google/firebase/firebase-database/9.4.0/firebase-database-9.4.0.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/google/m2repository/com/google/firebase/firebase-core/9.4.0/firebase-core-9.4.0.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-vector-drawable/24.2.0/support-vector-drawable-24.2.0.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/animated-vector-drawable/24.2.0/animated-vector-drawable-24.2.0.aar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/google/m2repository/com/google/firebase/firebase-auth/9.4.0/firebase-auth-9.4.0.aar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/google/m2repository/com/google/firebase/firebase-database/9.4.0/firebase-database-9.4.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.firebaseui/firebase-ui/0.5.3/75582de775abc18b3c0dc83b35cacc83b98f5b32/firebase-ui-0.5.3.aar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/google/m2repository/com/google/firebase/firebase-core/9.4.0/firebase-core-9.4.0.aar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/android/m2repository/com/android/support/support-vector-drawable/24.2.0/support-vector-drawable-24.2.0.aar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/android/m2repository/com/android/support/animated-vector-drawable/24.2.0/animated-vector-drawable-24.2.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-compat/24.2.0/a837404f28f101f2916aa9aa52ee69f66ea3896a/support-compat-24.2.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-core-utils/24.2.0/221d118dd4764d3bb968ac463e52f5d6627dd663/support-core-utils-24.2.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-media-compat/24.2.0/8a3ea4e6733e4481608c88887b8a75c29491524b/support-media-compat-24.2.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-core-ui/24.2.0/d86b936e8785254b2dd0bd75216bd3093b547a87/support-core-ui-24.2.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/24.2.0/a0d92cf8eedde2315aef4c6af6b7238690d9b461/support-fragment-24.2.0.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/24.2.0/recyclerview-v7-24.2.0.aar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/android/m2repository/com/android/support/recyclerview-v7/24.2.0/recyclerview-v7-24.2.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.3.1/4d53b7d6983247af02b8fe7e4228fff555a5e828/firebase-client-jvm-2.3.1.jar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/google/m2repository/com/google/android/gms/play-services-base/9.4.0/play-services-base-9.4.0.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/google/m2repository/com/google/android/gms/play-services-basement/9.4.0/play-services-basement-9.4.0.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/google/m2repository/com/google/firebase/firebase-auth-common/9.4.0/firebase-auth-common-9.4.0.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/google/m2repository/com/google/firebase/firebase-auth-module/9.4.0/firebase-auth-module-9.4.0.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/google/m2repository/com/google/firebase/firebase-common/9.4.0/firebase-common-9.4.0.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/google/m2repository/com/google/android/gms/play-services-tasks/9.4.0/play-services-tasks-9.4.0.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/google/m2repository/com/google/firebase/firebase-database-connection/9.4.0/firebase-database-connection-9.4.0.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/google/m2repository/com/google/firebase/firebase-analytics/9.4.0/firebase-analytics-9.4.0.aar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/google/m2repository/com/google/android/gms/play-services-base/9.4.0/play-services-base-9.4.0.aar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/google/m2repository/com/google/android/gms/play-services-basement/9.4.0/play-services-basement-9.4.0.aar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/google/m2repository/com/google/firebase/firebase-auth-common/9.4.0/firebase-auth-common-9.4.0.aar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/google/m2repository/com/google/firebase/firebase-auth-module/9.4.0/firebase-auth-module-9.4.0.aar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/google/m2repository/com/google/firebase/firebase-common/9.4.0/firebase-common-9.4.0.aar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/google/m2repository/com/google/android/gms/play-services-tasks/9.4.0/play-services-tasks-9.4.0.aar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/google/m2repository/com/google/firebase/firebase-database-connection/9.4.0/firebase-database-connection-9.4.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-database/0.5.3/9a707cd1bb39013ff8e4bb2f7e34f057c10b1bbc/firebase-ui-database-0.5.3.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-auth/0.5.3/5296c3a125eb59658297ad898c2ed7b5ca3e792a/firebase-ui-auth-0.5.3.aar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/google/m2repository/com/google/firebase/firebase-analytics/9.4.0/firebase-analytics-9.4.0.aar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.11/d37cb67277928cf59344b4196af8d9cee1f1a27c/tubesock-0.0.11.jar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/google/m2repository/com/google/firebase/firebase-analytics-impl/9.4.0/firebase-analytics-impl-9.4.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-android-sdk/4.14.1/8942037878ea4dc85451a8be9d7c1c518dc7745e/facebook-android-sdk-4.14.1.aar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/google/m2repository/com/google/android/gms/play-services-auth/9.4.0/play-services-auth-9.4.0.aar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/google/m2repository/com/google/firebase/firebase-analytics-impl/9.4.0/firebase-analytics-impl-9.4.0.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.2/d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b/jackson-core-2.2.2.jar" />
-                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/google/m2repository/com/google/firebase/firebase-iid/9.4.0/firebase-iid-9.4.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.4.0/cc174c559b5177982887bf6e1b76003aebad9516/bolts-android-1.4.0.jar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/android/m2repository/com/android/support/customtabs/23.4.0/customtabs-23.4.0.aar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/android/m2repository/com/android/support/cardview-v7/23.4.0/cardview-v7-23.4.0.aar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/google/m2repository/com/google/android/gms/play-services-auth-base/9.4.0/play-services-auth-base-9.4.0.aar" />
+                            <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/extras/google/m2repository/com/google/firebase/firebase-iid/9.4.0/firebase-iid-9.4.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/app" />
@@ -1990,64 +2135,71 @@
               <option name="name" value="app" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/ant-1.9.3.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/ant-launcher-1.9.3.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/gradle-base-services-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/gradle-base-services-groovy-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/gradle-cli-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/gradle-core-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/gradle-docs-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/gradle-launcher-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/gradle-messaging-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/gradle-model-core-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/gradle-model-groovy-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/gradle-native-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/gradle-open-api-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/gradle-resources-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/gradle-tooling-api-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/gradle-ui-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/gradle-wrapper-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/groovy-all-2.4.4.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-announce-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-antlr-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-build-comparison-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-build-init-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-code-quality-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-dependency-management-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-diagnostics-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-ear-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-ide-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-ide-native-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-ivy-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-jacoco-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-javascript-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-jetty-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-language-groovy-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-language-java-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-language-jvm-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-language-native-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-language-scala-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-maven-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-osgi-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-platform-base-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-platform-jvm-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-platform-native-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-platform-play-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-plugin-development-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-plugin-use-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-plugins-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-publish-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-reporting-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-resources-http-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-resources-s3-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-resources-sftp-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-scala-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-signing-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-sonar-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-test-kit-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-testing-native-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/gradle-tooling-api-builders-2.10.jar" />
-                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/gradle-model-groovy-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/gradle-cli-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/gradle-core-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/groovy-all-2.4.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/ant-launcher-1.9.6.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/gradle-docs-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/gradle-logging-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/gradle-launcher-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/gradle-wrapper-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/gradle-tooling-api-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/gradle-process-services-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/gradle-ui-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/gradle-installation-beacon-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/gradle-base-services-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/gradle-base-services-groovy-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/gradle-jvm-services-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/gradle-resources-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/ant-1.9.6.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/gradle-messaging-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/gradle-model-core-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/gradle-native-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/gradle-open-api-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-resources-s3-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-language-groovy-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-plugins-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-osgi-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-sonar-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-testing-native-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-announce-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-reporting-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-ide-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-resources-http-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-testing-jvm-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-resources-sftp-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-scala-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-diagnostics-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-plugin-development-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-build-comparison-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-javascript-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-ear-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-language-scala-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-jacoco-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-code-quality-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-ivy-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-signing-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-plugin-use-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-platform-native-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-build-init-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-ide-play-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-language-jvm-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-tooling-api-builders-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-platform-jvm-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-jetty-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-publish-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-antlr-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-dependency-management-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-language-native-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-ide-native-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-testing-base-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-maven-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-platform-play-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-test-kit-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-language-java-2.14.1.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1/lib/plugins/gradle-platform-base-2.14.1.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -2079,22 +2231,26 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/utils/Utility.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_otp.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/utils/SmsReceiver.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/Constants.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/utils/WebRequest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/Signup.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/Login.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/OtpActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/platforms/android-24/data/res/layout/simple_list_item_1.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/partneritemlayout.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="width" value="1024" />
-    <option name="height" value="728" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -2155,13 +2311,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="EduChat" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2172,6 +2334,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EduChat" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2206,10 +2390,40 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EduChat" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="educhat" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EduChat" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2217,9 +2431,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="device.picker.selection" value="O7CMPFOB4HYL49Q8" />
-    <property name="android.project.structure.last.selected" value="Cloud" />
+    <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ItsMyGang" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -2555,7 +2769,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1024" height="728" extended-state="0" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2564,7 +2778,8 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33274958" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33064517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31474105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34432235" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2572,7 +2787,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1944223" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2584,7 +2799,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3153527" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -2625,50 +2839,24 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/utils/WebRequest.java</url>
-          <line>41</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/MainActivity.java</url>
+          <line>43</line>
           <properties />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/utils/WebRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#1865#1892#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2700,9 +2888,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="165" column="18" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2749,7 +2935,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3986#3987#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2788,9 +2974,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2807,17 +2991,6 @@
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="36" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
@@ -2994,22 +3167,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/BaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3018,21 +3175,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/utils/WebRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/google-services.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.20731707">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3044,10 +3190,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17627119">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding>
+            <element signature="e#3986#3987#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/utils/WebRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/Signup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/OtpActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.4444447">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="e#415#433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73745173">
-          <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.3448277">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/platforms/android-24/data/res/values/attrs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3575419">
+          <caret line="293" column="20" selection-start-line="293" selection-start-column="20" selection-end-line="293" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -3055,42 +3274,33 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding>
+            <element signature="e#1865#1892#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/softwares/Android/Android-SDK/Sdk/platforms/android-24/data/res/layout/simple_list_item_1.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.666667">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/Signup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="203" column="49" selection-start-line="203" selection-start-column="49" selection-end-line="203" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/Login.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/partneritemlayout.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.16513762">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/admin/educhat/OtpActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6345609">
-          <caret line="178" column="47" selection-start-line="178" selection-start-column="47" selection-end-line="178" selection-end-column="47" />
-          <folding>
-            <element signature="e#5537#6868#0" expanded="true" />
-            <element signature="e#5784#6583#0" expanded="true" />
-            <element signature="e#6582#6583#0" expanded="true" />
-            <element signature="e#6867#6868#0" expanded="true" />
-          </folding>
-        </state>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>

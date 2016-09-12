@@ -13,6 +13,9 @@ import android.widget.TextView;
 
 import com.example.admin.educhat.utils.Urls;
 import com.example.admin.educhat.utils.WebRequest;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -29,12 +32,13 @@ public class Login extends BaseActivity {
     EditText etUserName, etPassword;
     TextView tvWarningMessage, tvWarningMessage2;
     String username, password;
+    FirebaseAuth auth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
+        auth=FirebaseAuth.getInstance();
         etUserName = (EditText) findViewById(R.id.et_username);
         etPassword = (EditText) findViewById(R.id.et_password);
         etPassword.setTypeface(Typeface.DEFAULT);
@@ -94,9 +98,14 @@ public class Login extends BaseActivity {
         @Override
         public boolean handleMessage(Message message) {
             if (message.arg1== HttpURLConnection.HTTP_OK) {
+                auth.signInWithEmailAndPassword(username,password).addOnSuccessListener(new OnSuccessListener<AuthResult>() {
+                    @Override
+                    public void onSuccess(AuthResult authResult) {
+                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                        finish();
+                    }
+                });
 
-                startActivity(new Intent(getApplicationContext(), MainActivity.class));
-                finish();
             }
             if (message.arg1== HttpURLConnection.HTTP_UNAUTHORIZED){
                 setToastMessage("Invalid Credentials");
