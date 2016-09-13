@@ -178,9 +178,7 @@ public class OtpActivity extends BaseActivity {
 
                         if(task.isSuccessful())
                         {
-                            FirebaseUser user=auth.getCurrentUser();
-                            String uid=user.getUid();
-                            rootref.child(uid).setValue("user");
+
                         }
                         else
                         {
