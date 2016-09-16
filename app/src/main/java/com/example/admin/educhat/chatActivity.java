@@ -10,6 +10,7 @@ import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextWatcher;
 
+import android.text.format.DateFormat;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -25,19 +26,26 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 
 
 public class chatActivity extends AppCompatActivity {
 
+
     public static class MessageViewHolder extends RecyclerView.ViewHolder {
         public TextView messageTextView;
         public TextView messengerTextView;
+        public TextView messagetime;
 
 
         public MessageViewHolder(View v) {
             super(v);
             messageTextView = (TextView) itemView.findViewById(R.id.messageTextView);
             messengerTextView = (TextView) itemView.findViewById(R.id.messengerTextView);
+            messagetime=(TextView)itemView.findViewById(R.id.date);
+
 
         }
     }
@@ -115,6 +123,7 @@ public class chatActivity extends AppCompatActivity {
                 mProgressBar.setVisibility(ProgressBar.INVISIBLE);
                 viewHolder.messageTextView.setText(friendlyMessage.getText());
                 viewHolder.messengerTextView.setText(friendlyMessage.getName());
+                viewHolder.messagetime.setText(friendlyMessage.getMsgdate().getHours()+":"+friendlyMessage.getMsgdate().getMinutes());
 
 
             }
@@ -170,7 +179,7 @@ public class chatActivity extends AppCompatActivity {
 
                 Message friendlyMessage = new
                         Message(mMessageEditText.getText().toString(),
-                        mUsername);
+                        mUsername,Calendar.getInstance().getTime());
                 mrefMessage
                         .push().setValue(friendlyMessage);
                 mMessageEditText.setText("");

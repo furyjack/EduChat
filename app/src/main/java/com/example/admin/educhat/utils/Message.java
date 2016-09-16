@@ -15,19 +15,21 @@
  */
 package com.example.admin.educhat.utils;
 
+import java.util.Date;
+
 public class Message {
 
     private String text;
     private String name;
-
+    private Date msgdate;
 
     public Message() {
     }
 
-    public Message(String text, String name) {
+    public Message(String text, String name,Date d) {
         this.text = text;
         this.name = name;
-
+        this.msgdate=d;
     }
 
     public String getText() {
@@ -46,5 +48,11 @@ public class Message {
         this.name = name;
     }
 
+    public Date getMsgdate() {
+        return msgdate;
+    }
 
+    public void setMsgdate(Date msgdate) {
+        this.msgdate = msgdate;
+    }
 }
