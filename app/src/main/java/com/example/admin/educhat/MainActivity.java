@@ -7,6 +7,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.admin.educhat.utils.Partner;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
@@ -34,6 +35,30 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        baseclass myapp=(baseclass)this.getApplication();
+        if(myapp.wasinbackground)
+        {
+            Toast.makeText(MainActivity.this, "app was in background", Toast.LENGTH_SHORT).show();
+        }
+        else
+        {
+
+        }
+        myapp.stopActivityTransitionTimer();
+
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        baseclass myapp=(baseclass)this.getApplication();
+        myapp.startActivityTransitionTimer();
+
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

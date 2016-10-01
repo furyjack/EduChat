@@ -13,6 +13,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.admin.educhat.utils.Message;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
@@ -63,6 +64,29 @@ public class chatActivity extends AppCompatActivity {
             mFirebaseAdapter;
 
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        baseclass myapp=(baseclass)this.getApplication();
+        if(myapp.wasinbackground)
+        {
+            Toast.makeText(chatActivity.this, "app was in background", Toast.LENGTH_SHORT).show();
+        }
+        else
+        {
+
+        }
+        myapp.stopActivityTransitionTimer();
+
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        baseclass myapp=(baseclass)this.getApplication();
+        myapp.startActivityTransitionTimer();
+
+    }
 
 
 
