@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
             finish();
         }
         startService(new Intent(this,MyService.class));
-        FirebaseDatabase.getInstance().setPersistenceEnabled(true);
+
         userchatref= FirebaseDatabase.getInstance().getReference().child("Users").child(user.getUid()).child("Threads");
         userchatref.keepSynced(true);
        Rvthreads= (RecyclerView) findViewById(R.id.rv_threads);
