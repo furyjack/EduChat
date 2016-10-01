@@ -1,15 +1,14 @@
 package com.example.admin.educhat;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
 import com.example.admin.educhat.utils.Partner;
-import com.firebase.client.Firebase;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -48,8 +47,10 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(this,Login.class));
             finish();
         }
+        startService(new Intent(this,MyService.class));
+        FirebaseDatabase.getInstance().setPersistenceEnabled(true);
         userchatref= FirebaseDatabase.getInstance().getReference().child("Users").child(user.getUid()).child("Threads");
-
+        userchatref.keepSynced(true);
        Rvthreads= (RecyclerView) findViewById(R.id.rv_threads);
         Rvthreads.setHasFixedSize(true);
         Rvthreads.setLayoutManager(new LinearLayoutManager(this));

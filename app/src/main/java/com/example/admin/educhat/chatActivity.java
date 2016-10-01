@@ -2,22 +2,17 @@ package com.example.admin.educhat;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextWatcher;
-
-import android.text.format.DateFormat;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-
-
 
 import com.example.admin.educhat.utils.Message;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
@@ -26,9 +21,7 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 
 
 public class chatActivity extends AppCompatActivity {
@@ -100,7 +93,7 @@ public class chatActivity extends AppCompatActivity {
         String uid=mFirebaseUser.getUid();
         mFirebaseDatabaseReference = FirebaseDatabase.getInstance().getReference();
         mrefMessage=mFirebaseDatabaseReference.child("Users").child(uid).child("Threads").child(Partneruid).child("Messages");
-
+       mrefMessage.keepSynced(true);
 
         mUsername = "lakshay"; //set it in signup activity till then its hardcoded
         mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
