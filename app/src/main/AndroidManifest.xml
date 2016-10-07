@@ -25,7 +25,9 @@
         <activity android:name=".BaseActivity" />
         <activity android:name=".Signup" />
         <activity android:name=".Login" />
-        <activity android:name=".chatActivity" />
+        <activity android:name=".chatActivity"
+            android:parentActivityName=".MainActivity"
+            />
 
         <receiver
             android:name=".BootReciever"
@@ -40,7 +42,9 @@
         <service
             android:name=".MyService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true">
+
+        </service>
     </application>
 
 </manifest>

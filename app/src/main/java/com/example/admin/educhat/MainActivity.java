@@ -13,6 +13,7 @@ import com.example.admin.educhat.utils.Partner;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     FirebaseUser user;
     DatabaseReference userchatref;
     RecyclerView Rvthreads;
+    DatabaseReference isonline;
 
 
     public static class Partnerviewholder extends RecyclerView.ViewHolder
@@ -40,6 +42,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         baseclass myapp=(baseclass)this.getApplication();
+        isonline.onDisconnect().setValue(false, new DatabaseReference.CompletionListener() {
+            @Override
+            public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
+
+            }
+        });
         if(myapp.wasinbackground)
         {
             Toast.makeText(MainActivity.this, "app was in background", Toast.LENGTH_SHORT).show();
@@ -72,8 +80,14 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(this,Login.class));
             finish();
         }
-        startService(new Intent(this,MyService.class));
+        //startService(new Intent(this,MyService.class));
+        isonline=FirebaseDatabase.getInstance().getReference().child("Users").child(auth.getCurrentUser().getUid()).child("isonline");
+        isonline.onDisconnect().setValue(false, new DatabaseReference.CompletionListener() {
+            @Override
+            public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
 
+            }
+        });
         userchatref= FirebaseDatabase.getInstance().getReference().child("Users").child(user.getUid()).child("Threads");
         userchatref.keepSynced(true);
        Rvthreads= (RecyclerView) findViewById(R.id.rv_threads);

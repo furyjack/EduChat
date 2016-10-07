@@ -9,9 +9,12 @@ import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.FrameLayout;
 import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,18 +30,20 @@ import java.util.Calendar;
 
 public class chatActivity extends AppCompatActivity {
 
+    DatabaseReference isonline;
 
     public static class MessageViewHolder extends RecyclerView.ViewHolder {
         public TextView messageTextView;
-        public TextView messengerTextView;
         public TextView messagetime;
+        private FrameLayout messagebackhround;
 
 
         public MessageViewHolder(View v) {
             super(v);
-            messageTextView = (TextView) itemView.findViewById(R.id.messageTextView);
-            messengerTextView = (TextView) itemView.findViewById(R.id.messengerTextView);
-            messagetime=(TextView)itemView.findViewById(R.id.date);
+            messageTextView = (TextView) itemView.findViewById(R.id.textview_message);
+            messagebackhround=(FrameLayout)itemView.findViewById(R.id.incoming_layout_bubble);
+
+            messagetime=(TextView)itemView.findViewById(R.id.textview_time);
 
 
         }
@@ -67,6 +72,7 @@ public class chatActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+//        isonline.onDisconnect().setValue(false);
         baseclass myapp=(baseclass)this.getApplication();
         if(myapp.wasinbackground)
         {
@@ -114,6 +120,12 @@ public class chatActivity extends AppCompatActivity {
             return;
 
         }
+//        isonline.onDisconnect().setValue(false, new DatabaseReference.CompletionListener() {
+//            @Override
+//            public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
+//
+//            }
+//        });
         String uid=mFirebaseUser.getUid();
         mFirebaseDatabaseReference = FirebaseDatabase.getInstance().getReference();
         mrefMessage=mFirebaseDatabaseReference.child("Users").child(uid).child("Threads").child(Partneruid).child("Messages");
@@ -130,17 +142,24 @@ public class chatActivity extends AppCompatActivity {
         mFirebaseAdapter = new FirebaseRecyclerAdapter<Message,
                 MessageViewHolder>(
                 Message.class,
-                R.layout.item_message,
+                R.layout.chat_user1_item,
                 MessageViewHolder.class,
                 mrefMessage) {
 
             @Override
             protected void populateViewHolder(MessageViewHolder viewHolder,
                                               Message friendlyMessage, int position) {
+                RelativeLayout.LayoutParams params=new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+                params.setMargins(300,0,8,0);
                 mProgressBar.setVisibility(ProgressBar.INVISIBLE);
+                if(!friendlyMessage.getName().equals(PartnerName) && position%2==0)
+                {
+                    viewHolder.messagebackhround.setLayoutParams(params);
+                    viewHolder.messagebackhround.setBackgroundResource(R.drawable.balloon_outgoing_normal);
+                    viewHolder.messagetime.setPadding(40,0,50,30);
+                }
                 viewHolder.messageTextView.setText(friendlyMessage.getText());
-                viewHolder.messengerTextView.setText(friendlyMessage.getName());
-                viewHolder.messagetime.setText(friendlyMessage.getMsgdate().getHours()+":"+friendlyMessage.getMsgdate().getMinutes());
+               // viewHolder.messagetime.setText(friendlyMessage.getMsgdate().getHours()+":"+friendlyMessage.getMsgdate().getMinutes());
 
 
             }

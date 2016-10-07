@@ -36,6 +36,7 @@ public class baseclass extends Application {
          muser=auth.getCurrentUser();
        connectedRef = FirebaseDatabase.getInstance().getReference(".info/connected");
         isonline= FirebaseDatabase.getInstance().getReference().child("Users").child(muser.getUid()).child("isonline");
+
         connectedRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot snapshot) {

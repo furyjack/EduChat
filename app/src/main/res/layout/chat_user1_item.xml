@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
+    android:background="#FFFFFF"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
     android:layout_height="wrap_content">
 
     <FrameLayout
         android:id="@+id/incoming_layout_bubble"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="60dp"
-        android:layout_alignParentLeft="true"
-        android:background="@drawable/balloon_incoming_normal">
+        android:foregroundGravity="right"
+        android:background="@drawable/balloon_incoming_normal"
+        tools:ignore="RtlHardcoded">
 
         <TextView
             android:id="@+id/textview_time"
@@ -20,15 +25,17 @@
             android:paddingRight="5dp"
             android:text="11:15 PM"
             style="@style/chat_timings"
+            android:paddingBottom="6dp"
+            android:paddingLeft="40dp"
             android:layout_gravity="bottom|right"/>
 
         <TextView
             android:id="@+id/textview_message"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="6dp"
+            android:paddingLeft="20dp"
             android:autoLink="web"
-            android:text="Rahul Agrawal is a good boy but he does not know what he wants."
+            android:text="i"
             style="@style/chat_text_message_style"/>
 
     </FrameLayout>
