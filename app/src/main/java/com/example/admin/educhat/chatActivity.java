@@ -110,7 +110,7 @@ public class chatActivity extends AppCompatActivity {
         setSupportActionBar(mtoolbar);
 
 
-
+        if(getSupportActionBar()!=null)
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle(PartnerName);
@@ -158,7 +158,15 @@ public class chatActivity extends AppCompatActivity {
                 {
                     viewHolder.messagebackhround.setLayoutParams(params);
                     viewHolder.messagebackhround.setBackgroundResource(R.drawable.balloon_outgoing_normal);
-                    viewHolder.messagetime.setPadding(40,0,50,30);
+                    viewHolder.messagetime.setPadding(40,0,70,30);
+                }
+                else
+                {
+                    params.setMargins(8,0,300,0);
+                    viewHolder.messagetime.setPadding(40,0,70,30);
+                    viewHolder.messagebackhround.setLayoutParams(params);
+                    viewHolder.messagebackhround.setBackgroundResource(R.drawable.balloon_incoming_normal);
+
                 }
                 viewHolder.messageTextView.setText(friendlyMessage.getText());
                // viewHolder.messagetime.setText(friendlyMessage.getMsgdate().getHours()+":"+friendlyMessage.getMsgdate().getMinutes());
