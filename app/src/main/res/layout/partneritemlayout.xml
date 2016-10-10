@@ -9,13 +9,13 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:background="@drawable/icaccount"
+        android:src="@drawable/icaccount"
         android:layout_margin="10dp"
 
         />
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
@@ -27,17 +27,28 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceListItemSmall"
         android:gravity="center_vertical"
-       android:padding="10dp"
-        android:minHeight="?android:attr/listPreferredItemHeightSmall" />
+       android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        />
 
         <TextView
             android:layout_marginTop="3dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/tvlastmsg"
-            android:paddingTop="3dp"
+            android:paddingTop="2dp"
             android:paddingLeft="10dp"
             android:text="Will set a metting at 5."
+            />
+        <TextView
+            android:layout_marginTop="3dp"
+            android:background="@color/colorGreenLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="CHESS"
             />
 
         <View
