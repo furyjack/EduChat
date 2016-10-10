@@ -22,6 +22,7 @@ import com.example.admin.educhat.utils.Message;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -33,8 +34,8 @@ public class chatActivity extends AppCompatActivity {
     DatabaseReference isonline;
 
     public static class MessageViewHolder extends RecyclerView.ViewHolder {
-        public TextView messageTextView;
-        public TextView messagetime;
+        private TextView messageTextView;
+        private TextView messagetime;
         private FrameLayout messagebackhround;
 
 
@@ -72,7 +73,7 @@ public class chatActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-//        isonline.onDisconnect().setValue(false);
+       isonline.onDisconnect().setValue(false);
         baseclass myapp=(baseclass)this.getApplication();
         if(myapp.wasinbackground)
         {
@@ -120,12 +121,13 @@ public class chatActivity extends AppCompatActivity {
             return;
 
         }
-//        isonline.onDisconnect().setValue(false, new DatabaseReference.CompletionListener() {
-//            @Override
-//            public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
-//
-//            }
-//        });
+        isonline=FirebaseDatabase.getInstance().getReference().child("Users").child(mFirebaseAuth.getCurrentUser().getUid()).child("isonline");
+       isonline.onDisconnect().setValue(false, new DatabaseReference.CompletionListener() {
+           @Override
+          public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
+
+            }
+        });
         String uid=mFirebaseUser.getUid();
         mFirebaseDatabaseReference = FirebaseDatabase.getInstance().getReference();
         mrefMessage=mFirebaseDatabaseReference.child("Users").child(uid).child("Threads").child(Partneruid).child("Messages");
