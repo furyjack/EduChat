@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="com.example.admin.educhat.MainActivity">
+
+
+
+  <android.support.v7.widget.Toolbar
+      android:layout_width="match_parent"
+      android:background="#1A237E"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      >
+
+
+
+  </android.support.v7.widget.Toolbar>
 
   <android.support.v7.widget.RecyclerView
       android:layout_width="match_parent"
@@ -15,4 +25,4 @@
       android:id="@+id/rv_threads">
 
   </android.support.v7.widget.RecyclerView>
-</RelativeLayout>
+</LinearLayout>
