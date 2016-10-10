@@ -2,7 +2,8 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
+
+        <item name="android:textColorSecondary">#FFFFFF</item>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -39,4 +40,20 @@
         <item name="android:textColor">#a6abad</item>
 
     </style>
+
+    <style name="toolbarstyle" parent="Theme.AppCompat.NoActionBar">
+        <!-- android:textColorPrimary is the  color of the title text
+             in the Toolbar, in the Theme.AppCompat theme:  -->
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+
+
+        <item name="actionMenuTextColor">@color/colorWhite</item>
+        <!-- android:textColorSecondary is the color of the menu
+             overflow icon (three vertical dots) -->
+        <item name="android:textColorSecondary">#1A237E</item>
+
+    </style>
+
+
+
 </resources>

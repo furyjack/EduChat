@@ -13,6 +13,8 @@
       android:background="#1A237E"
       android:layout_height="wrap_content"
       android:layout_marginBottom="10dp"
+      android:id="@+id/tb_main"
+      style="@style/toolbarstyle"
       >
 
 
