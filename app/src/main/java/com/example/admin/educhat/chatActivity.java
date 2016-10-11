@@ -106,6 +106,9 @@ public class chatActivity extends AppCompatActivity {
         PartnerName=getIntent().getStringExtra("pname");
         Partneruid=getIntent().getStringExtra("puid");
         mtoolbar=(Toolbar)findViewById(R.id.tb_groupchat);
+        mtoolbar.setTitleTextColor(-1);
+        mtoolbar.setSubtitle("Last seen today at 13:00");
+        mtoolbar.setSubtitleTextColor(-1);
 
         setSupportActionBar(mtoolbar);
 
@@ -153,7 +156,7 @@ public class chatActivity extends AppCompatActivity {
                                               Message friendlyMessage, int position) {
                 RelativeLayout.LayoutParams params=new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
                 params.setMargins(300,0,8,0);
-                mProgressBar.setVisibility(ProgressBar.INVISIBLE);
+                mProgressBar.setVisibility(ProgressBar.GONE);
                 if(!friendlyMessage.getName().equals(PartnerName) && position%2==0)
                 {
                     viewHolder.messagebackhround.setLayoutParams(params);
