@@ -21,19 +21,21 @@ public class baseclass extends Application {
     Timer transitiontimer;
     int Thresholdtime=2000;
     TimerTask mActivityTransitionTimerTask;
-    FirebaseAuth auth;
-    FirebaseUser muser;
-    DatabaseReference userlastonline;
-    DatabaseReference connectedRef;
-    DatabaseReference isonline;
+  public   FirebaseAuth auth;
+  public   FirebaseUser muser;
+  public   DatabaseReference userlastonline;
+  public   DatabaseReference connectedRef;
+  public   DatabaseReference isonline;
 
 
     @Override
     public void onCreate() {
         super.onCreate();
          auth=FirebaseAuth.getInstance();
-        FirebaseDatabase.getInstance().setPersistenceEnabled(true);
+         FirebaseDatabase.getInstance().setPersistenceEnabled(true);
          muser=auth.getCurrentUser();
+        if(muser==null)
+            return;
        connectedRef = FirebaseDatabase.getInstance().getReference(".info/connected");
         isonline= FirebaseDatabase.getInstance().getReference().child("Users").child(muser.getUid()).child("isonline");
 

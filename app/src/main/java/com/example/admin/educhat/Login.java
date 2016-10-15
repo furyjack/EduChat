@@ -6,14 +6,16 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.support.annotation.NonNull;
 import android.text.method.PasswordTransformationMethod;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
-import com.example.admin.educhat.utils.Urls;
-import com.example.admin.educhat.utils.WebRequest;
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -55,8 +57,21 @@ public class Login extends BaseActivity {
             try {
                 data.put("username", username);
                 data.put("password", password);
-                WebRequest request = new WebRequest(this, handler, Urls.LOGIN_URL, "POST");
-                request.execute(data.toString());
+                auth.signInWithEmailAndPassword(username,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if(task.isSuccessful())
+                        {
+                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                        }
+                        else
+                        {
+                            Toast.makeText(Login.this,task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+//                WebRequest request = new WebRequest(this, handler, Urls.LOGIN_URL, "POST");
+//                request.execute(data.toString());
             } catch (JSONException e) {
                 e.printStackTrace();
             }

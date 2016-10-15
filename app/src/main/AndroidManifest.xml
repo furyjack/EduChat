@@ -17,11 +17,7 @@
         <activity android:name=".MainActivity"
             android:screenOrientation="portrait"
             >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".OtpActivity"
             android:screenOrientation="portrait"/>
@@ -30,7 +26,13 @@
         <activity android:name=".Signup"
             android:screenOrientation="portrait"/>
         <activity android:name=".Login"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
         <activity android:name=".chatActivity"
             android:screenOrientation="portrait"
             android:parentActivityName=".MainActivity"

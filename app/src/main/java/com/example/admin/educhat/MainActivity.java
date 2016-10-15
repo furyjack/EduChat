@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
     DatabaseReference userchatref;
     RecyclerView Rvthreads;
     DatabaseReference isonline;
+       DatabaseReference userlastonline;
+       DatabaseReference connectedRef;
     Toolbar toolbar;
 
 
@@ -46,6 +48,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         baseclass myapp=(baseclass)this.getApplication();
+        myapp.isonline=isonline;
+        myapp.connectedRef=connectedRef;
+        myapp.userlastonline=userlastonline;
         isonline.onDisconnect().setValue(false, new DatabaseReference.CompletionListener() {
             @Override
             public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
@@ -82,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
 
         setSupportActionBar(toolbar);
         auth=FirebaseAuth.getInstance();
-        auth.signInWithEmailAndPassword("lakshaytaneja26@gmail.com","viratkohli");
+       // auth.signInWithEmailAndPassword("lakshaytaneja26@gmail.com","viratkohli");
         user=auth.getCurrentUser();
         if(user==null)
         {
@@ -91,6 +96,8 @@ public class MainActivity extends AppCompatActivity {
         }
         //startService(new Intent(this,MyService.class));
         isonline=FirebaseDatabase.getInstance().getReference().child("Users").child(auth.getCurrentUser().getUid()).child("isonline");
+        userlastonline=FirebaseDatabase.getInstance().getReference().child("Users").child(user.getUid()).child("lastseen");
+        connectedRef = FirebaseDatabase.getInstance().getReference(".info/connected");
         isonline.onDisconnect().setValue(false, new DatabaseReference.CompletionListener() {
             @Override
             public void onComplete(DatabaseError databaseError, DatabaseReference databaseReference) {
