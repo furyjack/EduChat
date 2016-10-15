@@ -22,11 +22,14 @@ import com.example.admin.educhat.utils.Message;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.Calendar;
+import java.util.Date;
 
 
 public class chatActivity extends AppCompatActivity {
@@ -67,8 +70,10 @@ public class chatActivity extends AppCompatActivity {
     private DatabaseReference mFirebaseDatabaseReference;
     private DatabaseReference mrefMessage;
     private DatabaseReference trefMessage;
+    private DatabaseReference PisOnline;
     private FirebaseRecyclerAdapter<Message, MessageViewHolder>
             mFirebaseAdapter;
+    private DatabaseReference PartnerLastseen;
 
 
     @Override
@@ -108,7 +113,6 @@ public class chatActivity extends AppCompatActivity {
         Partneruid=getIntent().getStringExtra("puid");
         mtoolbar=(Toolbar)findViewById(R.id.tb_groupchat);
         mtoolbar.setTitleTextColor(-1);
-        mtoolbar.setSubtitle("Last seen today at 13:00");
         mtoolbar.setSubtitleTextColor(-1);
 
         setSupportActionBar(mtoolbar);
@@ -125,6 +129,8 @@ public class chatActivity extends AppCompatActivity {
             return;
 
         }
+        PisOnline=FirebaseDatabase.getInstance().getReference().child("Users").child(Partneruid).child("isonline");
+        PartnerLastseen=FirebaseDatabase.getInstance().getReference().child("Users").child(Partneruid).child("lastseen");
         isonline=FirebaseDatabase.getInstance().getReference().child("Users").child(mFirebaseAuth.getCurrentUser().getUid()).child("isonline");
        isonline.onDisconnect().setValue(false, new DatabaseReference.CompletionListener() {
            @Override
@@ -132,6 +138,43 @@ public class chatActivity extends AppCompatActivity {
 
             }
         });
+        PisOnline.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+
+                Boolean is= (Boolean) dataSnapshot.getValue();
+                if(is)
+                {
+                    mtoolbar.setSubtitle("Online");
+                }
+                else
+                {
+
+                    PartnerLastseen.addListenerForSingleValueEvent(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(DataSnapshot dataSnapshot) {
+                           long timestamp= (long) dataSnapshot.getValue();
+                           Date msgdate=new Date(timestamp);
+                            mtoolbar.setSubtitle("Last seen at "+msgdate.getHours() +":"+ msgdate.getMinutes());
+                        }
+
+                        @Override
+                        public void onCancelled(DatabaseError databaseError) {
+
+                        }
+                    });
+                    ;
+                }
+
+
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
         String uid=mFirebaseUser.getUid();
         mFirebaseDatabaseReference = FirebaseDatabase.getInstance().getReference();
         trefMessage=mFirebaseDatabaseReference.child("Users").child(Partneruid).child("Threads").child(uid).child("Messages");
