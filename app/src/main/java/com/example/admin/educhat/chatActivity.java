@@ -66,6 +66,7 @@ public class chatActivity extends AppCompatActivity {
     private FirebaseUser mFirebaseUser;
     private DatabaseReference mFirebaseDatabaseReference;
     private DatabaseReference mrefMessage;
+    private DatabaseReference trefMessage;
     private FirebaseRecyclerAdapter<Message, MessageViewHolder>
             mFirebaseAdapter;
 
@@ -133,6 +134,7 @@ public class chatActivity extends AppCompatActivity {
         });
         String uid=mFirebaseUser.getUid();
         mFirebaseDatabaseReference = FirebaseDatabase.getInstance().getReference();
+        trefMessage=mFirebaseDatabaseReference.child("Users").child(Partneruid).child("Threads").child(uid).child("Messages");
         mrefMessage=mFirebaseDatabaseReference.child("Users").child(uid).child("Threads").child(Partneruid).child("Messages");
        mrefMessage.keepSynced(true);
 
@@ -231,6 +233,7 @@ public class chatActivity extends AppCompatActivity {
                         mUsername,Calendar.getInstance().getTime());
                 mrefMessage
                         .push().setValue(friendlyMessage);
+                trefMessage.push().setValue(friendlyMessage);
                 mMessageEditText.setText("");
 
 
