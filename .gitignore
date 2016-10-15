@@ -208,7 +208,8 @@ pip-log.txt
 # Unit test / coverage reports
 .coverage
 .tox
-.idea\workspace.xml
+.idea/workspace.xml
+.idea/misc.xml
 
 #Translations
 *.mo
