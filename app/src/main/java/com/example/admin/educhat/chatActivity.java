@@ -136,7 +136,7 @@ public class chatActivity extends AppCompatActivity {
         mrefMessage=mFirebaseDatabaseReference.child("Users").child(uid).child("Threads").child(Partneruid).child("Messages");
        mrefMessage.keepSynced(true);
 
-        mUsername = "lakshay"; //set it in signup activity till then its hardcoded
+        mUsername = mFirebaseUser.getDisplayName(); //set it in signup activity till then its hardcoded
         mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
         mMessageRecyclerView = (RecyclerView) findViewById(R.id.messageRecyclerView);
         mLinearLayoutManager = new LinearLayoutManager(this);
@@ -157,7 +157,7 @@ public class chatActivity extends AppCompatActivity {
                 RelativeLayout.LayoutParams params=new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
                 params.setMargins(300,0,8,0);
                 mProgressBar.setVisibility(ProgressBar.GONE);
-                if(!friendlyMessage.getName().equals(PartnerName) && position%2==0)
+                if(!friendlyMessage.getName().equals(PartnerName))
                 {
                     viewHolder.messagebackhround.setLayoutParams(params);
                     viewHolder.messagebackhround.setBackgroundResource(R.drawable.balloon_outgoing_normal);

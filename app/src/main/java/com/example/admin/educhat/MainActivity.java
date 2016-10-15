@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
 
         setSupportActionBar(toolbar);
         auth=FirebaseAuth.getInstance();
-        auth.signInWithEmailAndPassword("lakshaytaneja26@gmil.com","viratkohli");
+        auth.signInWithEmailAndPassword("lakshaytaneja26@gmail.com","viratkohli");
         user=auth.getCurrentUser();
         if(user==null)
         {
