@@ -94,8 +94,9 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(this,Login.class));
             finish();
         }
-        //startService(new Intent(this,MyService.class));
+        startService(new Intent(this,MyService.class));
         isonline=FirebaseDatabase.getInstance().getReference().child("Users").child(auth.getCurrentUser().getUid()).child("isonline");
+
         userlastonline=FirebaseDatabase.getInstance().getReference().child("Users").child(user.getUid()).child("lastseen");
         connectedRef = FirebaseDatabase.getInstance().getReference(".info/connected");
         isonline.onDisconnect().setValue(false, new DatabaseReference.CompletionListener() {
@@ -113,16 +114,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             protected void populateViewHolder(Partnerviewholder viewHolder, final Partner model, int position) {
                 viewHolder.tvName.setText(model.name);
-                viewHolder.tvName.setOnClickListener(new View.OnClickListener() {
+                viewHolder.itemView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         Intent intent=new Intent(getApplicationContext(),chatActivity.class);
                         intent.putExtra("puid",model.uid);
                         intent.putExtra("pname",model.name);
                         startActivity(intent);
-
                     }
                 });
+               
 
             }
         };

@@ -41,6 +41,11 @@ public class Login extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         auth=FirebaseAuth.getInstance();
+        if(auth.getCurrentUser()!=null)
+        {
+            startActivity(new Intent(this,MainActivity.class));
+            finish();
+        }
         etUserName = (EditText) findViewById(R.id.et_username);
         etPassword = (EditText) findViewById(R.id.et_password);
         etPassword.setTypeface(Typeface.DEFAULT);

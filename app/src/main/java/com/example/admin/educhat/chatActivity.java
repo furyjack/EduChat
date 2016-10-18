@@ -150,7 +150,7 @@ public class chatActivity extends AppCompatActivity {
                 else
                 {
 
-                    PartnerLastseen.addListenerForSingleValueEvent(new ValueEventListener() {
+                    PartnerLastseen.addValueEventListener(new ValueEventListener() {
                         @Override
                         public void onDataChange(DataSnapshot dataSnapshot) {
                            long timestamp= (long) dataSnapshot.getValue();
