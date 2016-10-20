@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.admin.educhat.utils.PreferenceManager;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
@@ -46,11 +47,12 @@ public class Login extends BaseActivity {
             startActivity(new Intent(this,MainActivity.class));
             finish();
         }
+        String u=PreferenceManager.getPrefString("user");
         etUserName = (EditText) findViewById(R.id.et_username);
         etPassword = (EditText) findViewById(R.id.et_password);
         etPassword.setTypeface(Typeface.DEFAULT);
         etPassword.setTransformationMethod(new PasswordTransformationMethod());
-
+        etUserName.setText(u);
         tvWarningMessage = (TextView) findViewById(R.id.tv_warning);
         tvWarningMessage2 = (TextView) findViewById(R.id.tv_warning2);
 
@@ -67,6 +69,7 @@ public class Login extends BaseActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful())
                         {
+                            PreferenceManager.setPrefString("user",username);
                             startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         }
                         else

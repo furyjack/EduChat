@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
         }
         startService(new Intent(this,MyService.class));
         isonline=FirebaseDatabase.getInstance().getReference().child("Users").child(auth.getCurrentUser().getUid()).child("isonline");
-
+        isonline.setValue(true);
         userlastonline=FirebaseDatabase.getInstance().getReference().child("Users").child(user.getUid()).child("lastseen");
         connectedRef = FirebaseDatabase.getInstance().getReference(".info/connected");
         isonline.onDisconnect().setValue(false, new DatabaseReference.CompletionListener() {

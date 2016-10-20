@@ -33,6 +33,7 @@ public class MyService extends Service {
     @Override
     public void onTaskRemoved(Intent rootIntent) {
         ref.setValue(false);
+        auth.signOut();
         super.onTaskRemoved(rootIntent);
 
 
