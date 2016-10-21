@@ -34,6 +34,7 @@ public class MyService extends Service {
     public void onTaskRemoved(Intent rootIntent) {
         ref.setValue(false);
         auth.signOut();
+        stopSelf();
         super.onTaskRemoved(rootIntent);
 
 

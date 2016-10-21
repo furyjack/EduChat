@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
     DatabaseReference userchatref;
     RecyclerView Rvthreads;
     DatabaseReference isonline;
-       DatabaseReference userlastonline;
-       DatabaseReference connectedRef;
+    DatabaseReference userlastonline;
+    DatabaseReference connectedRef;
     Toolbar toolbar;
 
 

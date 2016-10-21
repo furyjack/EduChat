@@ -19,7 +19,7 @@ import java.util.TimerTask;
 public class baseclass extends Application {
     boolean wasinbackground;
     Timer transitiontimer;
-    int Thresholdtime=2000;
+    int Thresholdtime=500;
     TimerTask mActivityTransitionTimerTask;
   public   FirebaseAuth auth;
   public   FirebaseUser muser;
