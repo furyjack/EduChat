@@ -217,6 +217,7 @@ public class chatActivity extends AppCompatActivity {
 
                 }
                 viewHolder.messageTextView.setText(friendlyMessage.getText());
+
                viewHolder.messagetime.setText(friendlyMessage.getMsgdate().getHours()+":"+friendlyMessage.getMsgdate().getMinutes());
 
 

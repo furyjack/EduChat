@@ -36,6 +36,7 @@ public class baseclass extends Application {
          muser=auth.getCurrentUser();
         if(muser==null)
             return;
+
        connectedRef = FirebaseDatabase.getInstance().getReference(".info/connected");
         isonline= FirebaseDatabase.getInstance().getReference().child("Users").child(muser.getUid()).child("isonline");
 
