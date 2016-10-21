@@ -29,7 +29,7 @@
             android:paddingLeft="40dp"
             android:layout_gravity="bottom|right"/>
 
-        
+
 
         <TextView
             android:id="@+id/textview_message"

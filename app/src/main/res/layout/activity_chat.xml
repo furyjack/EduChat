@@ -50,6 +50,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="10"
+        android:weightSum="10"
         android:orientation="horizontal">
 
         <EditText
@@ -57,17 +58,24 @@
             android:id="@+id/messageEditText"
             android:layout_width="0dp"
             android:gravity="bottom"
-            android:padding="5dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/balloon_incoming_normal"
             android:layout_height="match_parent"
             android:layout_gravity="center_vertical"
-            android:layout_weight="1"/>
+            android:layout_weight="9"/>
 
-        <Button
+        <ImageButton
+            android:src="@drawable/ic_send"
             android:id="@+id/sendButton"
+            android:background="@null"
+            android:tint="@color/colorPrimaryDark"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="bottom"
             android:enabled="false"
+            android:layout_weight="1"
             android:text="SEND"/>
 
     </LinearLayout>
