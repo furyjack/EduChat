@@ -26,7 +26,7 @@ public class baseclass extends Application {
   public   DatabaseReference userlastonline;
   public   DatabaseReference connectedRef;
   public   DatabaseReference isonline;
-
+  ValueEventListener val;
 
     @Override
     public void onCreate() {
@@ -44,7 +44,7 @@ public class baseclass extends Application {
             @Override
             public void onDataChange(DataSnapshot snapshot) {
                 boolean connected = snapshot.getValue(Boolean.class);
-                if (connected) {
+                if (connected && !wasinbackground) {
                     Toast.makeText(baseclass.this, "online", Toast.LENGTH_SHORT).show();
                     isonline.setValue(true);
 
@@ -91,7 +91,7 @@ public class baseclass extends Application {
            @Override
            public void onDataChange(DataSnapshot dataSnapshot) {
                boolean connected = dataSnapshot.getValue(Boolean.class);
-               if (connected) {
+               if (connected && !wasinbackground) {
 
                    isonline.setValue(true);
 

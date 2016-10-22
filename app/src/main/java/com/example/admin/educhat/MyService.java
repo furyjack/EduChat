@@ -11,6 +11,7 @@ import com.google.firebase.database.FirebaseDatabase;
 public class MyService extends Service {
     FirebaseAuth auth=FirebaseAuth.getInstance();
     DatabaseReference ref;
+    DatabaseReference ls;
 
 
     public MyService() {
@@ -19,7 +20,11 @@ public class MyService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         if(auth.getCurrentUser()!=null)
-        ref= FirebaseDatabase.getInstance().getReference().child("Users").child(auth.getCurrentUser().getUid()).child("isonline");
+        {
+
+            ref= FirebaseDatabase.getInstance().getReference().child("Users").child(auth.getCurrentUser().getUid()).child("isonline");
+            ls=ref.getParent().child("lastseen");
+        }
         return super.onStartCommand(intent,flags,startId);
     }
 
@@ -33,6 +38,7 @@ public class MyService extends Service {
     @Override
     public void onTaskRemoved(Intent rootIntent) {
         ref.setValue(false);
+
         auth.signOut();
         stopSelf();
         super.onTaskRemoved(rootIntent);
