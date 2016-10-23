@@ -35,10 +35,12 @@ public class MainActivity extends AppCompatActivity {
     public static class Partnerviewholder extends RecyclerView.ViewHolder
     {
         TextView tvName;
+        TextView lastmessage;
 
         public Partnerviewholder(View itemView) {
             super(itemView);
             tvName= (TextView) itemView.findViewById(R.id.text1);
+            lastmessage=(TextView)itemView.findViewById(R.id.tvlastmsg);
         }
     }
 
@@ -97,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
         startService(new Intent(this,MyService.class));
         isonline=FirebaseDatabase.getInstance().getReference().child("Users").child(auth.getCurrentUser().getUid()).child("isonline");
         isonline.setValue(true);
+        isonline.keepSynced(true);
         userlastonline=FirebaseDatabase.getInstance().getReference().child("Users").child(user.getUid()).child("lastseen");
         connectedRef = FirebaseDatabase.getInstance().getReference(".info/connected");
         isonline.onDisconnect().setValue(false, new DatabaseReference.CompletionListener() {
@@ -114,6 +117,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             protected void populateViewHolder(Partnerviewholder viewHolder, final Partner model, int position) {
                 viewHolder.tvName.setText(model.name);
+                String name=model.getLastmessage().getName();
+                if(name.equals(model.name))
+                {
+                    viewHolder.lastmessage.setText(model.name+": "+model.getLastmessage().getText());
+                }
+                else
+                {
+                    viewHolder.lastmessage.setText("Me: " +model.getLastmessage().getText());
+                }
+
                 viewHolder.itemView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {

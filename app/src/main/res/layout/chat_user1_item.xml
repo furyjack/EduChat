@@ -51,7 +51,7 @@
             android:tint="#4FC3F7"
             android:layout_marginLeft="150dp"
             android:src="@drawable/ic_done_all"
-            android:paddingLeft="30dp"/>
+            android:paddingLeft="20dp"/>
             <!--android:tint="#4FC3F7"-->
 
             />

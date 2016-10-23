@@ -36,6 +36,8 @@ import java.util.Date;
 public class chatActivity extends AppCompatActivity {
 
     DatabaseReference isonline;
+    DatabaseReference lastmessage;
+    DatabaseReference plastmessage;
 
     public static class MessageViewHolder extends RecyclerView.ViewHolder {
         private TextView messageTextView;
@@ -132,6 +134,8 @@ public class chatActivity extends AppCompatActivity {
         }
         PisOnline=FirebaseDatabase.getInstance().getReference().child("Users").child(Partneruid).child("isonline");
         PartnerLastseen=FirebaseDatabase.getInstance().getReference().child("Users").child(Partneruid).child("lastseen");
+        plastmessage=FirebaseDatabase.getInstance().getReference().child("Users").child(Partneruid).child("Threads").child(mFirebaseUser.getUid()).child("lastmessage");
+        lastmessage=FirebaseDatabase.getInstance().getReference().child("Users").child(mFirebaseUser.getUid()).child("Threads").child(Partneruid).child("lastmessage");
         isonline=FirebaseDatabase.getInstance().getReference().child("Users").child(mFirebaseAuth.getCurrentUser().getUid()).child("isonline");
        isonline.onDisconnect().setValue(false, new DatabaseReference.CompletionListener() {
            @Override
@@ -139,6 +143,7 @@ public class chatActivity extends AppCompatActivity {
 
             }
         });
+        PisOnline.keepSynced(true);
         PisOnline.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -281,6 +286,8 @@ public class chatActivity extends AppCompatActivity {
                 mrefMessage
                         .push().setValue(friendlyMessage);
                 trefMessage.push().setValue(friendlyMessage);
+                plastmessage.setValue(friendlyMessage);
+                lastmessage.setValue(friendlyMessage);
                 mMessageEditText.setText("");
 
 
