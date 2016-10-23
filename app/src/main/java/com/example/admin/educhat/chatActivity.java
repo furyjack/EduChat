@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -40,13 +41,13 @@ public class chatActivity extends AppCompatActivity {
         private TextView messageTextView;
         private TextView messagetime;
         private FrameLayout messagebackhround;
-
+        private ImageView icsent;
 
         public MessageViewHolder(View v) {
             super(v);
             messageTextView = (TextView) itemView.findViewById(R.id.textview_message);
             messagebackhround=(FrameLayout)itemView.findViewById(R.id.incoming_layout_bubble);
-
+           icsent=(ImageView)itemView.findViewById(R.id.ic_sent);
             messagetime=(TextView)itemView.findViewById(R.id.textview_time);
 
 
@@ -207,6 +208,8 @@ public class chatActivity extends AppCompatActivity {
                     viewHolder.messagebackhround.setLayoutParams(params);
                     viewHolder.messagebackhround.setBackgroundResource(R.drawable.balloon_outgoing_normal);
                     viewHolder.messagetime.setPadding(40,0,70,30);
+                    viewHolder.icsent.setVisibility(View.VISIBLE);
+
                 }
                 else
                 {
@@ -214,7 +217,7 @@ public class chatActivity extends AppCompatActivity {
                     viewHolder.messagetime.setPadding(40,0,70,30);
                     viewHolder.messagebackhround.setLayoutParams(params);
                     viewHolder.messagebackhround.setBackgroundResource(R.drawable.balloon_incoming_normal);
-
+                    viewHolder.icsent.setVisibility(View.INVISIBLE);
                 }
                 viewHolder.messageTextView.setText(friendlyMessage.getText());
 

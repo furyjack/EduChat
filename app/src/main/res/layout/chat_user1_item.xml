@@ -42,6 +42,20 @@
             android:text="i"
             style="@style/chat_text_message_style"/>
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:id="@+id/ic_sent"
+            android:paddingTop="10dp"
+            android:tint="#4FC3F7"
+            android:layout_marginLeft="150dp"
+            android:src="@drawable/ic_done_all"
+            android:paddingLeft="30dp"/>
+            <!--android:tint="#4FC3F7"-->
+
+            />
+
     </FrameLayout>
 
 </RelativeLayout>
