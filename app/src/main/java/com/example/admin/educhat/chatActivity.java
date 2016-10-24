@@ -143,7 +143,7 @@ public class chatActivity extends AppCompatActivity {
 
             }
         });
-        PisOnline.keepSynced(true);
+
         PisOnline.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -180,7 +180,7 @@ public class chatActivity extends AppCompatActivity {
 
             }
         });
-
+        PisOnline.keepSynced(true);
         String uid=mFirebaseUser.getUid();
         mFirebaseDatabaseReference = FirebaseDatabase.getInstance().getReference();
         trefMessage=mFirebaseDatabaseReference.child("Users").child(Partneruid).child("Threads").child(uid).child("Messages");

@@ -38,9 +38,10 @@ public class baseclass extends Application {
             return;
 
        connectedRef = FirebaseDatabase.getInstance().getReference(".info/connected");
-        isonline= FirebaseDatabase.getInstance().getReference().child("Users").child(muser.getUid()).child("isonline");
 
-        connectedRef.addValueEventListener(new ValueEventListener() {
+        isonline= FirebaseDatabase.getInstance().getReference().child("Users").child(muser.getUid()).child("isonline");
+       if(val==null)
+        val=new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot snapshot) {
                 boolean connected = snapshot.getValue(Boolean.class);
@@ -59,7 +60,8 @@ public class baseclass extends Application {
             public void onCancelled(DatabaseError error) {
                 System.err.println("Listener was cancelled");
             }
-        });
+        };
+        connectedRef.addValueEventListener(val);
          userlastonline= FirebaseDatabase.getInstance().getReference().child("Users").child(muser.getUid()).child("lastseen");
     }
 
@@ -68,6 +70,7 @@ public class baseclass extends Application {
         this.mActivityTransitionTimerTask = new TimerTask() {
             public void run() {
                 baseclass.this.wasinbackground = true;
+                connectedRef.removeEventListener(val);
                 userlastonline.setValue(ServerValue.TIMESTAMP);
                 isonline.setValue(false);
             }
@@ -87,22 +90,32 @@ public class baseclass extends Application {
         }
 
         this.wasinbackground = false;
-       connectedRef.addListenerForSingleValueEvent(new ValueEventListener() {
-           @Override
-           public void onDataChange(DataSnapshot dataSnapshot) {
-               boolean connected = dataSnapshot.getValue(Boolean.class);
-               if (connected && !wasinbackground) {
+       if(val!=null)
+       connectedRef.addValueEventListener(val);
+        else
+       {
+           val=new ValueEventListener() {
+               @Override
+               public void onDataChange(DataSnapshot snapshot) {
+                   boolean connected = snapshot.getValue(Boolean.class);
+                   if (connected && !wasinbackground) {
+                       Toast.makeText(baseclass.this, "online", Toast.LENGTH_SHORT).show();
+                       isonline.setValue(true);
 
-                   isonline.setValue(true);
+                   } else {
+                       Toast.makeText(baseclass.this, "offline", Toast.LENGTH_SHORT).show();
+                       isonline.setValue(false);
 
+                   }
                }
-           }
 
-           @Override
-           public void onCancelled(DatabaseError databaseError) {
-
-           }
-       });
+               @Override
+               public void onCancelled(DatabaseError error) {
+                   System.err.println("Listener was cancelled");
+               }
+           };
+           connectedRef.addValueEventListener(val);
+       }
     }
 
 
