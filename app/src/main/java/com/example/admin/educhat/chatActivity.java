@@ -280,14 +280,38 @@ public class chatActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Message friendlyMessage = new
+                final Message friendlyMessage = new
                         Message(mMessageEditText.getText().toString(),
                         mUsername,Calendar.getInstance().getTime());
-                mrefMessage
-                        .push().setValue(friendlyMessage);
-                trefMessage.push().setValue(friendlyMessage);
-                plastmessage.setValue(friendlyMessage);
-                lastmessage.setValue(friendlyMessage);
+                PisOnline.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        Boolean is= (Boolean) dataSnapshot.getValue();
+                        if(is)
+                        {
+                            friendlyMessage.setViewcount(2);
+                        }
+                        else
+                        {
+                            friendlyMessage.setViewcount(1);
+                        }
+
+                        DatabaseReference ref=mrefMessage.push();
+                        friendlyMessage.setUid(ref.getKey());
+                        ref.setValue(friendlyMessage);
+
+                        trefMessage.child(friendlyMessage.getUid()).setValue(friendlyMessage);
+                        plastmessage.setValue(friendlyMessage);
+                        lastmessage.setValue(friendlyMessage);
+
+                    }
+
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+
+                    }
+                });
+
                 mMessageEditText.setText("");
 
 

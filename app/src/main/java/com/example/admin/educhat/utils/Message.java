@@ -22,6 +22,8 @@ public class Message {
     private String text;
     private String name;
     private Date msgdate;
+    private int viewcount;
+    private String uid;
 
     public Message() {
     }
@@ -30,6 +32,7 @@ public class Message {
         this.text = text;
         this.name = name;
         this.msgdate=d;
+        viewcount=0;
     }
 
     public String getText() {
@@ -54,5 +57,21 @@ public class Message {
 
     public void setMsgdate(Date msgdate) {
         this.msgdate = msgdate;
+    }
+
+    public int getViewcount() {
+        return viewcount;
+    }
+
+    public void setViewcount(int viewcount) {
+        this.viewcount = viewcount;
+    }
+
+    public String getUid() {
+        return uid;
+    }
+
+    public void setUid(String uid) {
+        this.uid = uid;
     }
 }

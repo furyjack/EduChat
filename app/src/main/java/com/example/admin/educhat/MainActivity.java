@@ -117,14 +117,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             protected void populateViewHolder(Partnerviewholder viewHolder, final Partner model, int position) {
                 viewHolder.tvName.setText(model.name);
-                String name=model.getLastmessage().getName();
-                if(name.equals(model.name))
-                {
-                    viewHolder.lastmessage.setText(model.name+": "+model.getLastmessage().getText());
-                }
-                else
-                {
-                    viewHolder.lastmessage.setText("Me: " +model.getLastmessage().getText());
+                if(model.getLastmessage()!=null) {
+                    String name = model.getLastmessage().getName();
+                    if (name.equals(model.name)) {
+                        viewHolder.lastmessage.setText(model.name + ": " + model.getLastmessage().getText());
+                    } else {
+                        viewHolder.lastmessage.setText("Me: " + model.getLastmessage().getText());
+                    }
                 }
 
                 viewHolder.itemView.setOnClickListener(new View.OnClickListener() {
