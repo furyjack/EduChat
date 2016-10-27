@@ -85,7 +85,8 @@ public class chatActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-       isonline.onDisconnect().setValue(false);
+        isonline.onDisconnect().setValue(false);
+        query_msgs();
         baseclass myapp=(baseclass)this.getApplication();
         if(myapp.wasinbackground)
         {
@@ -107,7 +108,35 @@ public class chatActivity extends AppCompatActivity {
 
     }
 
+private void query_msgs()
+{
 
+    Query nsmsgs=mrefMessage.orderByChild("viewcount").equalTo(1);
+    nsmsgs.addListenerForSingleValueEvent(new ValueEventListener() {
+        @Override
+        public void onDataChange(DataSnapshot dataSnapshot) {
+
+            Iterable<DataSnapshot> no= dataSnapshot.getChildren();
+            Iterator<DataSnapshot> i=no.iterator();
+            while(i.hasNext())
+            {
+                DataSnapshot f=i.next();
+                if(f.child("name").getValue().equals(PartnerName)) {
+                    String uid = f.getKey();
+                    mrefMessage.child(uid).child("viewcount").setValue(2);
+                    trefMessage.child(uid).child("viewcount").setValue(2);
+                }
+            }
+        }
+
+        @Override
+        public void onCancelled(DatabaseError databaseError) {
+
+        }
+    });
+
+
+}
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -159,7 +188,7 @@ public class chatActivity extends AppCompatActivity {
                 else
                 {
 
-                    PartnerLastseen.addValueEventListener(new ValueEventListener() {
+                    PartnerLastseen.addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
                         public void onDataChange(DataSnapshot dataSnapshot) {
                            long timestamp= (long) dataSnapshot.getValue();
@@ -190,29 +219,7 @@ public class chatActivity extends AppCompatActivity {
         mrefMessage=mFirebaseDatabaseReference.child("Users").child(uid).child("Threads").child(Partneruid).child("Messages");
        mrefMessage.keepSynced(true);
 
-        Query nsmsgs=mrefMessage.orderByChild("viewcount").equalTo(1);
-        nsmsgs.addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
 
-               Iterable<DataSnapshot> no= dataSnapshot.getChildren();
-                Iterator<DataSnapshot> i=no.iterator();
-                while(i.hasNext())
-                {
-                    DataSnapshot f=i.next();
-                    if(f.child("name").equals(PartnerName)) {
-                        String uid = f.getKey();
-                        mrefMessage.child(uid).child("viewcount").setValue(2);
-                        trefMessage.child(uid).child("viewcount").setValue(2);
-                    }
-                }
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
 
         mUsername = mFirebaseUser.getDisplayName(); //set it in signup activity till then its hardcoded
         mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
@@ -280,6 +287,7 @@ public class chatActivity extends AppCompatActivity {
                                 lastVisiblePosition == (positionStart - 1))) {
                     mMessageRecyclerView.scrollToPosition(positionStart);
                 }
+                query_msgs();
             }
         });
         mMessageRecyclerView.setLayoutManager(mLinearLayoutManager);
