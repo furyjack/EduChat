@@ -1,6 +1,7 @@
 package com.example.admin.educhat;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -27,10 +28,12 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Iterator;
 
 
 public class chatActivity extends AppCompatActivity {
@@ -187,6 +190,30 @@ public class chatActivity extends AppCompatActivity {
         mrefMessage=mFirebaseDatabaseReference.child("Users").child(uid).child("Threads").child(Partneruid).child("Messages");
        mrefMessage.keepSynced(true);
 
+        Query nsmsgs=mrefMessage.orderByChild("viewcount").equalTo(1);
+        nsmsgs.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+
+               Iterable<DataSnapshot> no= dataSnapshot.getChildren();
+                Iterator<DataSnapshot> i=no.iterator();
+                while(i.hasNext())
+                {
+                    DataSnapshot f=i.next();
+                    if(f.child("name").equals(PartnerName)) {
+                        String uid = f.getKey();
+                        mrefMessage.child(uid).child("viewcount").setValue(2);
+                        trefMessage.child(uid).child("viewcount").setValue(2);
+                    }
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
         mUsername = mFirebaseUser.getDisplayName(); //set it in signup activity till then its hardcoded
         mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
         mMessageRecyclerView = (RecyclerView) findViewById(R.id.messageRecyclerView);
@@ -208,6 +235,11 @@ public class chatActivity extends AppCompatActivity {
                 RelativeLayout.LayoutParams params=new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
                 params.setMargins(300,0,8,0);
                 mProgressBar.setVisibility(ProgressBar.GONE);
+                if(friendlyMessage.getViewcount()==1)
+                {
+                    viewHolder.icsent.setColorFilter(Color.argb(255,0,0,0));
+                }
+
                 if(!friendlyMessage.getName().equals(PartnerName))
                 {
                     viewHolder.messagebackhround.setLayoutParams(params);
@@ -283,34 +315,17 @@ public class chatActivity extends AppCompatActivity {
                 final Message friendlyMessage = new
                         Message(mMessageEditText.getText().toString(),
                         mUsername,Calendar.getInstance().getTime());
-                PisOnline.addListenerForSingleValueEvent(new ValueEventListener() {
-                    @Override
-                    public void onDataChange(DataSnapshot dataSnapshot) {
-                        Boolean is= (Boolean) dataSnapshot.getValue();
-                        if(is)
-                        {
-                            friendlyMessage.setViewcount(2);
-                        }
-                        else
-                        {
-                            friendlyMessage.setViewcount(1);
-                        }
+
 
                         DatabaseReference ref=mrefMessage.push();
                         friendlyMessage.setUid(ref.getKey());
+                        friendlyMessage.setViewcount(1);
                         ref.setValue(friendlyMessage);
 
                         trefMessage.child(friendlyMessage.getUid()).setValue(friendlyMessage);
                         plastmessage.setValue(friendlyMessage);
                         lastmessage.setValue(friendlyMessage);
 
-                    }
-
-                    @Override
-                    public void onCancelled(DatabaseError databaseError) {
-
-                    }
-                });
 
                 mMessageEditText.setText("");
 
